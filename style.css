@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: #1e379c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header .logo {
+    color: white;
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.header .logo span {
+    font-size: 30px;
+    color: yellow;
+    font-weight: 900px;
+}
+
+.header .menu {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header .menu .menu-item {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.main {
+    width: 100%;
+    padding-top: 38px;
+}
+
+.main .hero {
+    height: 500px;
+    background-image: url(./hero.png);
+    background-size: 100% 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hero .title {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+.main .hero .description {
+    color: white;
+    width: 300px;
+}
+.main .hero .description {
+    color: white;
+    margin-left: 100px;
+}
+
+.actions {
+    display: flex;
+    margin-left: 100px;
+}
+
+.actions button {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: #243EA8;
+}
+
+.product .title {
+    text-align: center;
+}
+.product .line-wrapper {
+    width: 100%;
+}
+.product .line-wrapper .line {
+    height: 10px;
+    width: 150px;
+    background-color: green;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.products .row {
+  display: flex;
+}
+
+.products .row .col {
+    height: 400px;
+    width: calc(100% - 40px);
+    margin: 10px;
+}
+
+.col-center {
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+}
+
+.col-data {
+    margin: 10px 20px ;
+}
+
+.col-data .title {
+    font-size: 30px;
+}
