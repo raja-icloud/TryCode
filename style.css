@@ -36,6 +36,10 @@ body {
     margin-right:10px;
 }
 
+.header .menu .menu-item a {
+    color: white;
+}
+
 .main {
     width: 100%;
     padding-top: 38px;
@@ -118,4 +122,36 @@ body {
 
 .col-data .title {
     font-size: 30px;
+}
+
+.contact-form {
+    width: 500px;
+    height: 450px;
+    border: 1px solid rgb(186, 183, 183);
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+    padding: 100px;
+} 
+
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.contact-form .form-group input, textarea, button {
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid lightblue;
+    padding-left: 20px;
+}
+
+.contact-form .form-group textarea {
+    height: 180px;
+}
+
+.about-content {
+    text-align: justify;
+    padding: 100px;
 }
